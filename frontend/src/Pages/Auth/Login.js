@@ -83,7 +83,7 @@ const Login = () => {
         options={{
           background: {
             color: {
-              value: "#000",
+              value: "#282a36",
             },
           },
           fpsLimit: 60,
@@ -96,7 +96,7 @@ const Login = () => {
               },
             },
             color: {
-              value: "#ffcc00",
+              value: "#ffbf00",
             },
             shape: {
               type: "circle",

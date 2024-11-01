@@ -1,11 +1,69 @@
-.lnk{
-    text-decoration: none;
-}
-.btnStyle{
-    background-color: red;
-    border: 2px solid red;
-}
-.btnStyle:hover{
-    background-color: rgb(75, 11, 11);
+/* auth.css */
+
+body {
+    background-color: #1b1b1b;
 }
 
+.lnk {
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.lnk:hover {
+    color: #ffcc00; /* Highlight link on hover */
+}
+
+.btnStyle {
+    background-color: #ffcc00;
+    border: 2px solid #ffcc00;
+    color: #1b1b1b;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+    box-shadow: 0px 5px 15px rgba(255, 204, 0, 0.4);
+}
+
+.btnStyle:hover {
+    background-color: #cc9900;
+    border-color: #cc9900;
+    box-shadow: 0px 8px 20px rgba(255, 204, 0, 0.6);
+    transform: translateY(-2px); /* Button hover effect */
+}
+
+.text-white {
+    color: #e0e0e0 !important;
+}
+
+h1, h2 {
+    color: #ffcc00;
+}
+
+p {
+    color: #9d9494;
+}
+
+.text-center p {
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+.form-control {
+    background-color: #2c2c2c;
+    color: #fff;
+    border: 1px solid #444;
+    padding: 12px;
+    font-size: 1rem;
+}
+
+.form-control:focus {
+    background-color: #333;
+    color: #ffcc00;
+    border: 1px solid #ffcc00;
+    box-shadow: none;
+}
+
+form label {
+    color: #ffcc00;
+    font-weight: 500;
+}
