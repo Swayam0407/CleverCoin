@@ -1,4 +1,4 @@
-<img width="1680" alt="Screenshot 2024-11-02 at 7 03 46 PM" src="https://github.com/user-attachments/assets/2237814c-aa05-4957-be42-283001dcdc1a"># CleverCoin 💰
+# CleverCoin 💰
 
 CleverCoin is a dynamic web application designed to simplify expense tracking for individuals and organizations. Built with the MERN stack (MongoDB, Express.js, React.js, Node.js), this user-friendly platform helps you manage your finances with ease.
 
