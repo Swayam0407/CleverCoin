@@ -58,7 +58,7 @@ CleverCoin is a dynamic web application designed to simplify expense tracking fo
 7. Create your environment; eg:
 ```bash
 //.env.example
-MONGO_URL='mongodb+srv://*********:*******r@cluster0.a8y2d.mongodb.net/expenseTracker'
+MONGO_URL=''
 PORT=
 ```
 
