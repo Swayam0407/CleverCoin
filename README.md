@@ -28,5 +28,4 @@ CleverCoin is a dynamic web application designed to simplify expense tracking fo
 
 1. Clone the project:
    ```bash
-   git clone https://github.com/yourusername/CleverCoin
-   cd CleverCoin
+   git clone https://github.com/Swayam0407/CleverCoin
