@@ -25,10 +25,10 @@ body {
 }
 
 .btnStyle:hover {
-    background-color: #cc9900;
-    border-color: #cc9900;
-    box-shadow: 0px 8px 20px rgba(255, 204, 0, 0.6);
-    transform: translateY(-2px); /* Button hover effect */
+    background-color: red;
+    border-color: red;
+    box-shadow: 0px 8px 20px rgba(255, 204, 0, 0.4);
+    transform: translateY(-2px); 
 }
 
 .text-white {

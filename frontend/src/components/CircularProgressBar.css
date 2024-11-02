@@ -5,34 +5,34 @@
     height: 100px;
   }
 
-  @keyframes progressAnimation {
+@keyframes progressAnimation {
     from {
       stroke-dashoffset: var(--circumference);
     }
     to {
       stroke-dashoffset: var(--progress);
     }
-  }
-  
-  .circular-progressbar .circle {
-    stroke: var(--color);
+}
+
+.circular-progressbar .circle {
+    stroke: #000; /* Primary progress color - light blue */
     fill: transparent;
     stroke-width: 7;
     stroke-linecap: round;
     transform-origin: 50% 50%;
     transform: rotate(-90deg);
     transition: stroke-dashoffset 2s linear;
-  }
+}
 
-  .circular-progressbar .circle.animating {
+.circular-progressbar .circle.animating {
     animation: progressAnimation 3s linear forwards;
-  }
-  
-  .circular-progressbar .bg {
-    stroke: #d3d3d3;
-  }
-  
-  .circular-progressbar .percentage {
+}
+
+.circular-progressbar .bg {
+    stroke: #b0bec5; /* Background color - light gray */
+}
+
+.circular-progressbar .percentage {
     position: absolute;
     top: 0;
     left: 0;
@@ -41,5 +41,6 @@
     text-align: center;
     line-height: 100px;
     font-size: 20px;
-  }
-  
+    color: #ffcc00; 
+    font-weight: 500;
+}

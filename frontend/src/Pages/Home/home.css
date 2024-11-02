@@ -1,115 +1,140 @@
-.filterRow{
+/* General Layout and Spacing */
+.filterRow {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-
+    background-color: #1a2a3a;
+    color: #e0f7fa;
 }
 
 .data-table {
+    width: 100%;
     border-collapse: collapse;
-  }
-  
-.data-table thead th {
-    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    background-color: #263545;
 }
 
-.icons-handle{
+.data-table thead th {
+    background-color: #37475b;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 12px;
+    text-align: left;
+    border-bottom: 2px solid #1a2a3a;
+}
+
+.data-table tbody td {
+    padding: 12px;
+    color: #e0f7fa;
+    border-bottom: 1px solid #37475b;
+}
+
+/* Row Hover and Stripe for Better Readability */
+.data-table tbody tr:hover {
+    background-color: #3b536f;
+    cursor: pointer;
+}
+
+.data-table tbody tr:nth-child(even) {
+    background-color: #2b3c4d;
+}
+
+/* Icon Container Styling */
+.icons-handle {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
     gap: 15px;
-    /* width: 100%; */
+    color: #80deea;
 }
 
-.date{
+/* Date Picker Row */
+.date {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
     gap: 10px;
     margin-bottom: 10px;
+    color: #80deea;
 }
-  
-/* .data-table tbody tr:hover {
-    background-color: #f5f5f5;
-    cursor: pointer;
-}
-  
-.data-table tbody tr:nth-child(even) {
-    background-color: #f8f8f8;
-} */
 
-.containerBtn{
+/* Button Container */
+.containerBtn {
     display: flex;
     align-items: center;
-    justify-content:center;
-    margin-bottom: 20px;
+    justify-content: center;
+    margin: 0 auto 20px;
     width: 100%;
-    margin-left: 20px;
 }
-.mobileBtn{
+
+/* Mobile Button Display */
+.mobileBtn {
     display: none !important;
 }
 
-.iconBtnBox{
+/* Icon Button Styling */
+.iconBtnBox {
     display: flex;
     align-items: center;
-    justify-content: center;
     gap: 10px;
-    padding: 10px;
-    border: 2px solid white;
+    padding: 8px 12px;
+    border: 2px solid #80deea;
     border-radius: 8px;
-    
-
+    background-color: #1a2a3a;
+    color: #80deea;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.iconActive{
-    background-color: white;
-    color: black;
-}
-.iconDeactive{
-    background-color: rgb(78, 74, 78);
-    color: black;
+.iconBtnBox:hover {
+    background-color: #80deea;
+    color: #1a2a3a; /* Adding a color contrast on hover */
 }
 
+/* Active/Inactive Icons */
+.iconActive {
+    background-color: #80deea;
+    color: #1a2a3a;
+}
+
+.iconDeactive {
+    background-color: #37475b;
+    color: #80deea;
+}
+
+/* Responsive Design */
 @media only screen and (max-width: 600px) {
     .filterRow {
-        padding: 0px !important;
-        margin-top: 0px !important;
-        display: flex;
-        gap: "5px";
-        
-    }
-    .addNew{
-        /* padding-top: 20px; */
-        display: none !important;
-    }
-    .mobileBtn{
-        display: inline-block !important;
-    }
-    .iconBtnBox{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border: 0px;
-        
-    }
-    
-    .date{
-        /* padding: 10px; */
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: "10px";
         flex-direction: column;
-        margin-bottom: 10px;
-    }
-    .date .form-group{
-        width: 45%;
+        gap: 10px;
+        padding: 10px;
     }
 
-    .containerBtn{
-        margin-left: 0px !important;
+    .addNew {
+        display: none !important;
+    }
+
+    .mobileBtn {
+        display: inline-block !important;
+    }
+
+    .iconBtnBox {
+        padding: 6px 10px;
+        border: none;
+        gap: 8px;
+    }
+
+    .date {
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 8px;
+    }
+
+    .date .form-group {
+        width: 100%;
+    }
+
+    .containerBtn {
+        margin-left: 0 !important;
+        width: auto;
     }
 }
