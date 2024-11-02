@@ -1,6 +1,6 @@
 # CleverCoin 💰
 
-CleverCoin is a dynamic web application designed to simplify expense tracking for individuals and organizations. Built with the MERN stack (MongoDB, Express.js, React.js, Node.js), this user-friendly platform helps you manage your finances with ease.
+CleverCoin is a dynamic web app designed to simplify expense tracking for individuals and organizations. Built with the MERN stack (MongoDB, Express.js, React.js, Node.js), this user-friendly platform helps you manage your finances with ease.
 
 ## 🌟 Features
 
