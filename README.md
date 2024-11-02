@@ -53,12 +53,6 @@ CleverCoin is a dynamic web application designed to simplify expense tracking fo
    ```bash
    npm run dev
    ```
-7. Create your environment, eg:
-   ```bash
-   //.env.example
-   MONGO_URL=''
-   PORT=
-   ```
 
 ## 📷 Screenshots
 
