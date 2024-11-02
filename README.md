@@ -30,18 +30,33 @@ CleverCoin is a dynamic web application designed to simplify expense tracking fo
    ```bash
    git clone https://github.com/Swayam0407/CleverCoin
    ```
-1. Clone the project:
+2. Go to project directory:
    ```bash
-   git clone https://github.com/Swayam0407/CleverCoin
+    cd Expense-Tracker-App
    ```
-1. Clone the project:
+3. Go to frontend and install dependencies:
    ```bash
-   git clone https://github.com/Swayam0407/CleverCoin
+   cd frontend
+   npm i
    ```
-1. Clone the project:
+4. Go to backend and install dependencies:
    ```bash
-   git clone https://github.com/Swayam0407/CleverCoin
+   cd backend
+   npm i
    ```
+
+5. Start frontend server:
+   ```bash
+   cd frontend
+   npm start
+   ```
+6. Start backend server:
+   ```bash
+   cd backend
+   npm run dev
+   ```
+
+
 
 
 
