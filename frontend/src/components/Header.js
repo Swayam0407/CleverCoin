@@ -119,7 +119,7 @@ const navigate = useNavigate();
           {/* <Navbar className="navbarCSS" collapseOnSelect expand="lg" bg="dark" variant="dark"> */}
           <Navbar.Brand href="/" className="text-white navTitle">
             <svg
-              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium text-center css-1k9xhs9-MuiSvgIcon-root"
+              className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium text-center css-1k9xhs9-MuiSvgIcon-root"
               focusable="false"
               aria-hidden="true"
               viewBox="0 0 24 24"

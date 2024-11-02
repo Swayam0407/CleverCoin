@@ -3,7 +3,9 @@ import { loginControllers, registerControllers, setAvatarController } from '../c
 
 const router = express.Router();
 
-router.route("/register").post(registerControllers);
+router.route("/register").get((req, res) => {
+    res.json({ message: "Welcome to the registration page" });
+}).post(registerControllers); 
 
 router.route("/login").post(loginControllers);
 
