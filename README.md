@@ -45,12 +45,9 @@ CleverCoin is a dynamic web app designed to simplify expense tracking for indivi
    npm i
    ```
 
-5. Start frontend server:
+5. Start frontend and backend server:
    ```bash
    npm start
-   ```
-6. Start backend server:
-   ```bash
    npm run dev
    ```
 
